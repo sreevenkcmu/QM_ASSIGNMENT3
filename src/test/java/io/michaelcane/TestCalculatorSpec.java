@@ -215,15 +215,15 @@ public class TestCalculatorSpec {
         assertEquals("This should evaluate to 1000000000", expectedValue, actualValue, delta);
     }
 
-    // @Test
-    // public void test$cube() {
-    //     /**
-    //      * This will give the inverse for logarithms.
-    //      */
-    //     double expectedValue = 8;
-    //     double actualValue = calculator.cubeOfnumber(2);
-    //     assertEquals("This value should be equal to 8", expectedValue, actualValue, delta);
-    // }
+    @Test
+    public void test$cube() {
+        /**
+         * This will give the inverse for logarithms.
+         */
+        double expectedValue = 8;
+        double actualValue = calculator.cubeOfnumber(2);
+        assertEquals("This value should be equal to 8", expectedValue, actualValue, delta);
+    }
 
 
 
