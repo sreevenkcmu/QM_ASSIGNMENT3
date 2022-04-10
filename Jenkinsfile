@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    stages {
         stage("Build-and-Archrive") {
             steps {
                 sh './mvnw package'
@@ -12,3 +13,4 @@ pipeline {
             }
         }
     }
+}
