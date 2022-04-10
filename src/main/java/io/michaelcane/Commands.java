@@ -126,8 +126,8 @@ public class Commands {
                 break;
             case SETDISPLAYMODE:
                 display.setDisplayMode(user.getInput());
-            case CUBE:
-                calculator.cubeOfnumber(user.isNumber);
+            // case CUBE:
+            //     calculator.cubeOfnumber(user.isNumber);
             default:
                 System.out.println("I did not recognize that command. \nPlease enter a command.");
                 break;
