@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Build-and-Archrive") {
             steps {
-                sh './mvnw package'
+                sh 'mvn package'
             }
             post {
                 success {
